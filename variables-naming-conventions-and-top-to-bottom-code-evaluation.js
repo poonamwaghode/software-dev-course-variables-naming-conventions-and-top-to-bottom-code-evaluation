@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let numberofItem1 = 5;
+let numberofItem2 = 20;
+let newItem = 5;
+let totalCost = numberofItem1 + numberofItem2;
+let newTotalCost= numberofItem1 + numberofItem2 + newItem ;
+let userMessage = userName + " bought two items for  " + numberofItem1 + numberofItem2 + "each. so total cost of two item is "+ totalCost + "$.";
+let newMessage = userName + " bought one more item for " + newItem + " $ so, new total cost is" + newTotalCost + "$.";
 
-console.log(d);
+console.log(userMessage);
+console.log(newMessage);

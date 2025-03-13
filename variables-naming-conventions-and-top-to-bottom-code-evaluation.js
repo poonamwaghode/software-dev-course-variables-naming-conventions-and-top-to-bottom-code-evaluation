@@ -35,3 +35,15 @@ let newMessage = userName + " bought one more item for " + newItem + " $ so, new
 
 console.log(userMessage);
 console.log(newMessage);
+
+
+let x = 10;
+let y = 20;
+let z = x + y;
+console.log(z);
+
+// Rewrite code
+let firstNumber = 10; // Clearer name that indicates this is the first number.
+let secondNumber = 20; // Indicates this is the second number being used.
+let sumOfNumbers = firstNumber + secondNumber; // Descriptive variable name that shows the purpose.
+console.log(sumOfNumbers); // Outputs the sum of the two numbers.
